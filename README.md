@@ -1,7 +1,5 @@
-# AIO-switch-updater
-![releases](https://img.shields.io/github/downloads/HamletDuFromage/AIO-switch-updater/total)
-
-<a href="https://fairtech.us/donate/"><img alt="Donate to FairTech US" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+# FairTech-AIO-Updater
+![releases](https://github.com/Fair-Tech/FairTech-AIO-updater/releases)
 
 
 <p align="center">
