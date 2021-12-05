@@ -1,26 +1,19 @@
 # AIO-switch-updater
 ![releases](https://img.shields.io/github/downloads/HamletDuFromage/AIO-switch-updater/total)
-![hbappstore](https://img.shields.io/endpoint?url=https%3A%2F%2Frunkit.io%2Fhomlet%2Fhbappstore-shieldsio%2Fbranches%2Fmaster%3Furl%3Dhttps%3A%2F%2Fswitchbru.com%2Fappstore%2Frepo.json%26name%3Daioswitchupdater)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/HamletDuFromage/AIO-switch-updater/Build%20AIO-switch-updater)
-![tag](https://img.shields.io/github/v/release/HamletDuFromage/AIO-switch-updater)
-![GitHub](https://img.shields.io/github/license/HamletDuFromage/aio-switch-updater)
 
-<a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-[![btc](https://img.shields.io/badge/BTC-1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79-yellow)](https://github.com/HamletDuFromage/aio-switch-updater#like-the-app)
-[![eth](https://img.shields.io/badge/ETH-0xf68f568e21a15934e0e9a6949288c3ca009140ba-purple)](https://github.com/HamletDuFromage/aio-switch-updater#like-the-app)
+<a href="https://fairtech.us/donate/"><img alt="Donate to FairTech US" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
-[//]: ([![ko-fi](https://img.shields.io/badge/ko--fi-buy%20me%20a%20coffee-ff69b4)](https://ko-fi.com/hamletdufromage))
 
 <p align="center">
 <img src = "https://user-images.githubusercontent.com/61667930/93691188-7833f000-fad1-11ea-866d-42e19be54425.jpg"\><br>
 </p>
 
-A Nintendo Switch homebrew app to download and update CFWs, sigpatches, FWs and cheat codes. Supports Atmosphère, ReiNX and SXOS.
+A Nintendo Switch homebrew app to download and update CFWs, sigpatches, FWs and cheat codes. Supports FairTech AIO Custom Firmware Package.
 
 Works on **unpatched**(Erista) and **patched**(v2/Mariko) Switches.
 
 ## How to install
-Copy the `aio-switch-updater/` directory to `/switch/` on your sdcard.
+Copy the `FairTech-AIO-Updater/` directory to `/switch/` on your sdcard.
 
 ## Description of the features
 ### ⬦ Update CFW
