@@ -109,7 +109,7 @@ I do not own, host nor distribute any of the files that can be downloaded with t
 - [HamletDuFromage](https://github.com/HamletDuFromage) for creating the app that this was forked from.
 - Iliak for cheatslips.com.
 
-### Like the app?
+## Donations
 Donations are never expected, but always appreciated! You can support me via [CashApp](https://cash.app/$FairTech1) or [PayPal](https://www.paypal.com/paypalme/NicholasFair1). 
 
 <img src="https://www.fairtech.us/donate/cashappqr.jpg" width="300" />  <img src="https://www.fairtech.us/donate/paypalqr.jpg" width ="300" /> 
