@@ -1,9 +1,9 @@
 # FairTech-AIO-Updater
-.[Releases](https://github.com/Fair-Tech/FairTech-AIO-updater/releases)
+[Releases](https://github.com/Fair-Tech/FairTech-AIO-updater/releases)
 
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/61667930/93691188-7833f000-fad1-11ea-866d-42e19be54425.jpg"\><br>
+<img src = "https://fairtech.us/updater_logo.jpg"\><br>
 </p>
 
 A Nintendo Switch homebrew app to download and update CFWs, sigpatches, FWs and cheat codes. Supports FairTech AIO Custom Firmware Package.
@@ -106,10 +106,10 @@ I do not own, host nor distribute any of the files that can be downloaded with t
 - [qazrfv1234](https://github.com/qazrfv1234) for the Traditional Chinese locale.
 - [Team Neptune](https://github.com/Team-Neptune) whose rcm code I used.
 - [fennectech](https://github.com/fennectech) for helping test the app and providing suggestions.
+- [HamletDuFromage](https://github.com/HamletDuFromage) for creating the app that this was forked from.
 - Iliak for cheatslips.com.
 
 ### Like the app?
-- Liberapay : <a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-- BTC: 1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79
-- ETH: 0xf68f568e21a15934e0e9a6949288c3ca009140ba
-- CHAINLINK: 0xf68f568e21a15934e0e9a6949288c3ca009140ba
+Donations are never expected, but always appreciated! You can support me via [CashApp](https://cash.app/$FairTech1) or [PayPal](https://www.paypal.com/paypalme/NicholasFair1). 
+
+<img src="images/cashappqr.jpg" width="300" />  <img src="images/paypalqr.jpg" width ="300" /> 
