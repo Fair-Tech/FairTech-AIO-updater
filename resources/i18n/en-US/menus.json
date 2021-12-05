@@ -1,9 +1,9 @@
 {
   "about": {
-    "title": "All-in-One Nintendo Switch Updater",
-    "copyright": "AIO-switch-updater is licensed under GPL-3.0\n\u00a9 2020-2021 HamletDuFromage",
+    "title": "FairTech AiO Nintendo Switch Updater",
+    "copyright": "FairTech AIO-switch-updater is licensed under GPL-3.0\n\u00a9 2020-2021 FairTech US",
     "disclaimers": "\ue016  Aside from cheat codes that are mirrored from the main Gbatemp thread, HamletDuFromage isn't hosting anything. All credits go to respective owners.\n\ue016  Links are refreshed every 30 minutes. If a link remains broken after 30 minutes have passed, please open a Github issue.\n",
-    "donate": "\ue016  Like the app? Consider donating to support my efforts: 'https://git.io/donate_homlet'"
+    "donate": "\ue016  Like the app? Consider donating to support HamletDuFromage's efforts: 'https://git.io/donate_homlet'\nLike the FairTech AIO Package? Consider donating to support FairTech US: 'https://fairtech.us/donate'"
   },
   "cheats": {
     "installed": "Installed cheats",
@@ -129,7 +129,7 @@
     "download_firmware": "Download firmwares",
     "download_cheats": "Download cheats",
     "tools": "Tools",
-    "launch_warning": "Please pay attention to the following points before using the app:\n\n\ue016  Read up on how to manually update your Switch first. This will help you understand the app better and you'll know what to do in case something goes wrong.\n\ue016  Please note that using this app on an exFAT SD card is STRONGLY discouraged, as those are likely to corrupt.\n\n\ue016  Some new features and/or changes regarding current features may have been introduced. Please check them out via the Tools->Changelog menu.\n\nThis screen won't show again.",
+    "launch_warning": "Please pay attention to the following points before using the app:\n\n\ue016  Read up on how to manually update your Switch first. This will help you understand the app better and you'll know what to do in case something goes wrong.\n\ue016  Please note that using this app on an exFAT SD card is STRONGLY discouraged, as those are likely to corrupt.\n\n\ue016  Check the Changelog via the Tools->Changelog menu.\n\nThis screen won't show again.",
     "footer_text": "v{} | {:.1f}GB available",
     "theme_warning": "It seems like you have a custom theme installed, this may cause your system to fail to boot after upgrading your firmware.\nPlease consider deleting it before upgrading.",
     "payloads_label": "\ue016  Download RCM payloads to {}"
@@ -176,17 +176,17 @@
     "deepsea_builder": "DeepSea builder",
     "show_module_description": "Show module's description",
     "depends_on": "The following modules will also be installed:",
-    "download_custom_deepsea": "Download this custom DeepSea package",
-    "get_custom_deepsea": "Get custom DeepSea package",
-    "deepsea_label": "\ue016  DeepSea by Team Neptune is a CFW pack that includes Atmosph\u00e8re, hekate, and various homebrew apps.",
+    "download_custom_deepsea": "Download this custom FairTech package",
+    "get_custom_deepsea": "Get custom FairTech package",
+    "deepsea_label": "\ue016  FairTech AIO is a CFW pack that includes Atmosph\u00e8re, hekate, and various homebrew apps.",
     "download_deepsea_package": "Compile and download",
     "cant_fetch_deepsea": "Couldn't fetch packages. Open a Github issue if this persists.",
-    "build_your_deepsea": "Build your own custom DeepSea package by selecting packages",
+    "build_your_deepsea": "Build your own custom FairTech package by selecting packages",
     "getting_ams": "Getting Atmosphère",
     "custom_packs_label": "\ue016  Here are packs listed in the {} file. Be aware that those are not endorsed by aio-switch-updater so make sure you trust their source."
   },
   "firmware": {
-    "launch_daybreak": "Do you want to launch Daybreak to install the downloaded sysupdate?"
+    "launch_daybreak": "Do you want to launch Daybreak to install the downloaded sysupdate?\nNote: Be sure to update FairTech AIO, or Atmosphere and Sigpatches first, or your Switch may not boot."
   },
   "net": {
     "title": "Internet settings"
