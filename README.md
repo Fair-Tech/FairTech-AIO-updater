@@ -112,4 +112,4 @@ I do not own, host nor distribute any of the files that can be downloaded with t
 ### Like the app?
 Donations are never expected, but always appreciated! You can support me via [CashApp](https://cash.app/$FairTech1) or [PayPal](https://www.paypal.com/paypalme/NicholasFair1). 
 
-<img src="images/cashappqr.jpg" width="300" />  <img src="images/paypalqr.jpg" width ="300" /> 
+<img src="https://www.fairtech.us/donate/cashappqr.jpg" width="300" />  <img src="https://www.fairtech.us/donate/paypalqr.jpg" width ="300" /> 
