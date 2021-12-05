@@ -17,8 +17,8 @@ Copy the `FairTech-AIO-Updater/` directory to `/switch/` on your sdcard.
 ### ⬦ Update CFW
 - Download the most popular Switch CFWs. After downloading the CFW archive, the program will ask you whether you want to override your existing .ini files. 
   - If you would like to preserve additional files or directories, write their path (one line each) in `/config/aio-switch-updater/preserve.txt` and they won't be overwritten when updating.
-  - Place [this file](https://github.com/HamletDuFromage/aio-switch-updater/blob/master/copy_files.txt) in `/config/aio-switch-updater/copy_files.txt` in order to have specific copy operations performed after each download. This is mainly meant for users with trinkets who want payloads automatically copied to a directory.
-  - A custom Atmosphère url can be entered in [this file](https://github.com/HamletDuFromage/aio-switch-updater/blob/master/customPacks.json) and it will show on the `Update Atmopshère` menu. This can be used to support third-party packs through aio-switch-updater
+  - Place [this file](https://github.com/Fair-Tech/FairTech-AIO-updater/blob/master/copy_files.txt) in `/config/aio-switch-updater/copy_files.txt` in order to have specific copy operations performed after each download. This is mainly meant for users with trinkets who want payloads automatically copied to a directory.
+  - A custom Atmosphère url can be entered in [this file](https://github.com/Fair-Tech/FairTech-AIO-updater/blob/master/customPacks.json) and it will show on the `Update Atmopshère` menu. This can be used to support third-party packs through aio-switch-updater
 
 ### ⬦ Update Sigpatches
 - For Atmosphère. Downloads sigpatches, which are patches required for launching unofficial .NSPs. Both AMS and Hekate+AMS sigpatches are available.
@@ -35,11 +35,11 @@ Copy the `FairTech-AIO-Updater/` directory to `/switch/` on your sdcard.
 - Reboot to specific payload.
 - Download payloads to `/bootloader/payloads`.
 - Change software color scheme of Joy-Cons. Additional color profiles can be found in the releases and should be copied to `config/aio-switch-updater/jc_profiles.json`. Use [this webpage](https://hamletdufromage.github.io/JC-color-picker/JCpicker.html) to generate your own profiles.
-- Change software color scheme of Pro Controllers (has to be paired as Player 1). Additional color profiles can be found in the releases and should be copied to `config/aio-switch-updater/pc_profiles.json`.
+- Change software color scheme of Pro Controllers (has to be paired as Player 1). Additional color profiles can be found in the releases and should be copied to `config/FairTech-AIO-Updater/pc_profiles.json`.
 - Consult installed cheat codes.
 - Launch the Switch's web browser.
 - Edit internet settings (DNS, IP address, MTU, etc). Add you own configs to `config/aio-switch-updater/internet.json`. You can find a template in the root of the repo.
-- Tabs can be hidden through the `Hide tabs` menu, and more entries can be hidden by manually editing [`config/aio-switch-updater/hide_tabs.json`](https://github.com/HamletDuFromage/aio-switch-updater/blob/master/hide_tabs.json).
+- Tabs can be hidden through the `Hide tabs` menu, and more entries can be hidden by manually editing [`config/FairTech-AIO-Updater/hide_tabs.json`](https://github.com/Fair-Tech/FairTech-AIO-updater/blob/master/hide_tabs.json).
 
 ## Screenshots
 <details><summary>Expand to view the screenshots</summary>
@@ -75,8 +75,8 @@ Use [`switch-ex-curl`](https://github.com/eXhumer/switch-ex-curl) instead of `sw
 
 Clone the repository
 ```bash
-$ git clone --recursive https://github.com/HamletDuFromage/aio-switch-updater
-$ cd aio-switch-updater
+$ git clone --recursive https://github.com/Fair-Tech/FairTech-AIO-Updater
+$ cd FairTech-AIO-Updater
 ```
 
 Compile 
