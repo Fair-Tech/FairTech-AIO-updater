@@ -68,7 +68,7 @@ HideTabsPage::HideTabsPage() : AppletFrame(true, true)
     language = new brls::ToggleListItem("menus/tools/language"_i18n, util::getBoolValue(hideStatus, "language"));
     list->addView(language);
 
-    atmosphereentries = new brls::ToggleListItem("menus/hide/update_ams_deepsea"_i18n, util::getBoolValue(hideStatus, "atmosphereentries"));
+    atmosphereentries = new brls::ToggleListItem("menus/hide/update_ams_fairtech"_i18n, util::getBoolValue(hideStatus, "atmosphereentries"));
     list->addView(atmosphereentries);
 
     list->registerAction("menus/cheats/exclude_titles_save"_i18n, brls::Key::B, [this] {

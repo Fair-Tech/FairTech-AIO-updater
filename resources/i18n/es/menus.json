@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "Actualizador Todo-en-Uno de Nintendo Switch",
-    "copyright": "AIO-switch-updater tiene licencia GPL-3.0\n© 2020-2021 HamletDuFromage",
+    "copyright": "FairTech-AIO-Updater tiene licencia GPL-3.0\n© 2020-2021 HamletDuFromage",
     "disclaimers": "\ue016  Aparte de trucos obtenidos del hilo principal de Gbatemp, HamletDuFromage no provee nada. Todo el crédito pertenece a sus respectivos dueños.\n\ue016  Los enlaces se actualizan cada tres horas. Si un enlace sigue roto después de 3 horas, por favor abre un issue en Github.\n"
   },
   "cheats": {
@@ -83,7 +83,7 @@
     "dl_payloads": "Descargar payloads a ",
     "inject_payloads": "Inyectar payload",
     "update_app": "Actualizar la aplicación (v{})",
-    "dl_app": "Descargando:\nAIO-switch-updater\n\nDesde:\n",
+    "dl_app": "Descargando:\nFairTech-AIO-Updater\n\nDesde:\n",
     "changelog": "Cambios"
   },
   "utils": {

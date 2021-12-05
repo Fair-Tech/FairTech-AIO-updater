@@ -3,13 +3,13 @@
 
 #include <switch.h>
 
-#define PATH        "/switch/aio-switch-updater/"
-#define FULL_PATH   "/switch/aio-switch-updater/aio-switch-updater.nro"
-#define CONFIG_PATH "/config/aio-switch-updater/switch/aio-switch-updater/aio-switch-updater.nro"
-#define PREFIX      "/switch/aio-switch-updater/aio-switch-updater-v"
-#define FORWARDER_PATH      "/config/aio-switch-updater/aiosu-forwarder.nro"
-#define CONFIG_SWITCH       "/config/aio-switch-updater/switch/"
-#define HIDDEN_FILE "/config/aio-switch-updater/.aio-switch-updater"
+#define PATH        "/switch/FairTech-AIO-Updater/"
+#define FULL_PATH   "/switch/FairTech-AIO-Updater/FairTech-AIO-Updater.nro"
+#define CONFIG_PATH "/config/FairTech-AIO-Updater/switch/FairTech-AIO-Updater/FairTech-AIO-Updater.nro"
+#define PREFIX      "/switch/FairTech-AIO-Updater/FairTech-AIO-Updater-v"
+#define FORWARDER_PATH      "/config/FairTech-AIO-Updater/aiosu-forwarder.nro"
+#define CONFIG_SWITCH       "/config/FairTech-AIO-Updater/switch/"
+#define HIDDEN_FILE "/config/FairTech-AIO-Updater/.FairTech-AIO-Updater"
 
 int removeDir(const char* path)
 {

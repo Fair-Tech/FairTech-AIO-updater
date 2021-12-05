@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "All-in-One Nintendo Switch Updater",
-    "copyright": "AIO-switch-updater jest zgodny z licencją GPL-3.0\n\u00a9 2020-2021 HamletDuFromage",
+    "copyright": "FairTech-AIO-Updater jest zgodny z licencją GPL-3.0\n\u00a9 2020-2021 HamletDuFromage",
     "disclaimers": "\ue016  Oprócz cheatów które są lustrzaną kopią tych z wątku na Gbatemp, HamletDuFromage nie hostuje żadnych innych plików. Podziękowania za nie należy kierować do ich twórców.\n\ue016  Linki są odświeżane co 30 minut. Jeśli po 30 minutach link nadal nie działa, utwórz nowy problem na Githubie.\n",
     "donate": "\ue016  Podoba ci się apka? Rozważ datek na wsparcie moich starań: 'https://git.io/donate_homlet'"
   },
@@ -30,7 +30,7 @@
     "kb_error": "Jeśli klawiatura nie pokazała się, spróbuj uruchomić aplikację z pełnym dostępem do pamięci RAM (title redirection)",
     "cheatslips_see_more": "Zobacz więcej",
     "cheatslips_dl_cheats": "Pobierz cheaty i wróć",
-    "bid_not_found": "Nie można było uzyskać ID kompilacji. Spróbuj uruchomić aio-switch-updater w trybie appletu gdy gra jest uruchomiona.",
+    "bid_not_found": "Nie można było uzyskać ID kompilacji. Spróbuj uruchomić FairTech-AIO-Updater w trybie appletu gdy gra jest uruchomiona.",
     "exclude_titles": "Wyklucz tytuły",
     "exclude_titles_desc": "W tym menu możesz wyłączyć aktualizacje cheatów",
     "exclude_titles_save": "Zapisz wybór i wróć",
@@ -98,7 +98,7 @@
     "app": "aplikacja",
     "cfw": "CFW",
     "ams": "Atmosphère",
-    "ams_text": "\ue016  Z poziomu tego menu możesz pobrać i zaktualizować modyfikację oprogramowania Atmosph\u00e8re potrzebną do uruchamiania aplikacji homebrew.\n\ue016  DeepSea od Team Neptune to paczka z CFW zawierająca Atmosph\u00e8re, hekate i różne aplikacje homebrew.",
+    "ams_text": "\ue016  Z poziomu tego menu możesz pobrać i zaktualizować modyfikację oprogramowania Atmosph\u00e8re potrzebną do uruchamiania aplikacji homebrew.\n\ue016  FairTech od FairTech US to paczka z CFW zawierająca Atmosph\u00e8re, hekate i różne aplikacje homebrew.",
     "cfw_text": "\ue016  Alternatywne CFW, bootloadery.",
     "cheats": "cheaty",
     "links_not_found": "Nie można było uzyskać linku pobierania. Upewnij się, że Switch ma połączenie z internetem.\nJeśli problem nie ustąpi, utwórz nowy problem na Githubie.",
@@ -124,7 +124,7 @@
     "dl_payloads": "Pobierz payloady do ",
     "inject_payloads": "Wstrzyknij payload",
     "update_app": "Zaktualizuj aplikację (v{})",
-    "dl_app": "Pobieranie:\nAIO-switch-updater\n\nZ:\n",
+    "dl_app": "Pobieranie:\nFairTech-AIO-Updater\n\nZ:\n",
     "changelog": "Dziennik zmian",
     "clean_up": "Wyczyść pobrane pliki",
     "hide_tabs": "Ukryj zakładki",

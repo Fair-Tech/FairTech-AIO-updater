@@ -59,7 +59,7 @@ ChangelogPage::ChangelogPage() : AppletFrame(true, true)
     changes.push_back("\uE016 Added ability to change the internet color of Pro Controllers.\n\uE016 Added the ability to preserve specific files when updating.\n\uE016 Added the ability to clean up downloaded archives.");
 
     verTitles.push_back("v1.4.0");
-    changes.push_back("\uE016 Added possibility to use pre-set network settings. Add your own in `config/aio-switch-updater/internet.json.\n\uE016 Added web browser.");
+    changes.push_back("\uE016 Added possibility to use pre-set network settings. Add your own in `config/FairTech-AIO-Updater/internet.json.\n\uE016 Added web browser.");
 
     verTitles.push_back("v1.4.1");
     changes.push_back("\uE016 Fixed misleading display in internet settings page.");
@@ -134,7 +134,7 @@ ChangelogPage::ChangelogPage() : AppletFrame(true, true)
     changes.push_back("\uE016 Atmosphère 0.19+ support. Note that this version assumes your switch is running Atmosphère. I should fix this soon, but if you're on SXOS, please stay on 2.4.4.");
 
     verTitles.push_back("v2.4.6");
-    changes.push_back("\uE016 Added back support for SXOS.\n\uE016 Removed dialogue asking to update Hekate if downloading DeepSea.\n\uE016 Fixed incorrect description in inject payload menu.");
+    changes.push_back("\uE016 Added back support for SXOS.\n\uE016 Removed dialogue asking to update Hekate if downloading FairTech.\n\uE016 Fixed incorrect description in inject payload menu.");
 
     verTitles.push_back("v2.4.7");
     changes.push_back("\uE016 Fixed app only working on 0.19 AMS.\n\uE016 Proper replacement of stratosphere.romfs when updating.");

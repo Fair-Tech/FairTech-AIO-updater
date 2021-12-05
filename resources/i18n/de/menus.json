@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "All-in-One Nintendo Switch Updater",
-    "copyright": "AIO-Switch-Updater ist lizensiert unter: GPL-3.0\n© 2020 HamletDuFromage",
+    "copyright": "FairTech-AIO-Updater ist lizensiert unter: GPL-3.0\n© 2020 HamletDuFromage",
     "disclaimers": "\ue016  Außer Cheat-Codes, die vom Haupt-GBAtemp-Thread stammen, hostet HamletDuFromage nichts selber. Alle Anerkennung geht an die jeweiligen Besitzer.\n\ue016  Links werden alle 30 Minuten aktualisiert. Wenn ein Link nach 30 Minuten weiterhin nicht funktioniert, eröffne bitte ein Github-Issue.\n",
     "donate": "\ue016  Gefällt dir die App? Hier kannst du meine Bemühungen unterstützen: 'https://git.io/donate_homlet'"
   },
@@ -30,7 +30,7 @@
     "kb_error": "Wenn die Tastatur nicht auftaucht, starte die App mit vollem RAM-Zugriff. (Title Redirection)",
     "cheatslips_see_more": "Weiteres",
     "cheatslips_dl_cheats": "Lade cheats & gehe zurück",
-    "bid_not_found": "ID konnte nicht abgerufen werden. Versuche, AIO-Switch-Updater im Applet-Modus zu starten, während das Spiel läuft.",
+    "bid_not_found": "ID konnte nicht abgerufen werden. Versuche, FairTech-AIO-Updater im Applet-Modus zu starten, während das Spiel läuft.",
     "exclude_titles": "Spiele ausschließen",
     "exclude_titles_desc": "Mit diesem Menü kannst du Cheat-Udates ausschließen",
     "exclude_titles_save": "Auswahl speichern und zurück",
@@ -41,7 +41,7 @@
     "gbatemp_dl": "Lade von GBAtemp verwaltete Cheat-Codes herunter. Diese Cheats werden am Ende deiner bestehenden Cheat-Datei hinzugefügt.\\n\ue016 Build ID: {}",
     "gbatemp_dl_cheatcode": "Cheat-Code herunterladen",
     "gbatemp_dl_successful_dl": "Folgender Cheat-Code wurde erfolgreich heruntergeladen:\\n{}",
-    "applet_mode_not_supported": "Aufgrund von Speicherbeschränkungen können im Applet-Modus nur Cheat-Codes für das Spiel abgerufen werden, das gerade gespielt wird. Bitte starte den AIO-Switch-Updater über die Title Redirection, um Cheat-Codes für alle verfügbaren Spiele herunterzuladen.",
+    "applet_mode_not_supported": "Aufgrund von Speicherbeschränkungen können im Applet-Modus nur Cheat-Codes für das Spiel abgerufen werden, das gerade gespielt wird. Bitte starte den FairTech-AIO-Updater über die Title Redirection, um Cheat-Codes für alle verfügbaren Spiele herunterzuladen.",
     "cheatfile_label": "Hier sind die Cheat-Codes, die in der Datei {} aufgelistet sind",
     "not_found": "Es konnten keine geeigneten Cheat-Codes für dieses Spiel gefunden werden",
     "show_existing": "Verfügbares anzeigen",
@@ -69,7 +69,7 @@
     "cancel": "Abbrechen",
     "off": "Ausschalten",
     "selected": "Ausgewählt",
-    "applet_mode_not_supported": "Diese Funktion ist im Applet-Modus nicht verfügbar. Bitte starte den AIO-Switch-Updater über die Title Redirection, um darauf zuzugreifen."
+    "applet_mode_not_supported": "Diese Funktion ist im Applet-Modus nicht verfügbar. Bitte starte den FairTech-AIO-Updater über die Title Redirection, um darauf zuzugreifen."
   },
   "changelog": {
     "changelog": "Changelog"
@@ -115,7 +115,7 @@
     "latest_cheats": "Neueste Version",
     "app": "App",
     "cfw": "CFW",
-    "ams_text": "\ue016  In diesem Menü kannst du die Atmosphère Custom Firmware herunterladen und updaten.\n\ue016  DeepSea von Team Neptune ist ein CFW Paket, dass Atmosphère, Hekate and andere nützliche Homebrews enthält.",
+    "ams_text": "\ue016  In diesem Menü kannst du die Atmosphère Custom Firmware herunterladen und updaten.\n\ue016  FairTech von FairTech US ist ein CFW Paket, dass Atmosphère, Hekate and andere nützliche Homebrews enthält.",
     "cfw_text": "\ue016  Alternative CFWs, Bootloaders.",
     "cheats": "Cheats",
     "links_not_found": "Konnte keinen Downloadlink finden. Stelle sicher, dass deine Switch Internetzugriff hat.\nWenn das Problem bestehen bleibt, öffne bitte ein Issue auf Github.",
@@ -139,7 +139,7 @@
   "hide": {
     "title": "Tabs verstecken",
     "desc": "Verstecke Tabs aus dem Hauptmenü",
-    "update_ams_deepsea": "Atmosphere und DeepSea Downloads"
+    "update_ams_fairtech": "Atmosphere und FairTech Downloads"
   },
   "tools": {
     "cheats": "Cheats-Menü",
@@ -148,7 +148,7 @@
     "dl_payloads": "Lade Payloads hierhin herunter: ",
     "inject_payloads": "Injiziere Payload",
     "update_app": "Update die App (v{})",
-    "dl_app": "Lade herunter:\nAIO-Switch-Updater\n\nVon:\n",
+    "dl_app": "Lade herunter:\nFairTech-AIO-Updater\n\nVon:\n",
     "changelog": "Changelog",
     "clean_up": "Lösche übrig gebliebende Dateien",
     "hide_tabs": "Tabs verstecken",
@@ -175,17 +175,17 @@
     "current_ams": "\ue016  Momentane Atmosphère Version: ",
     "erista_rev": "\ue016  Erista Revision",
     "mariko_rev": "\ue016  Mariko Revision",
-    "deepsea_builder": "DeepSea Builder",
+    "fairtech_builder": "FairTech Builder",
     "show_module_description": "Beschreibung des Moduls anzeigen",
     "depends_on": "Die folgenden Module werden ebenfalls installiert",
-    "download_custom_deepsea": "Dieses benutzerdefinierte DeepSea-Paket herunterladen",
-    "get_custom_deepsea": "Benutzerdefiniertes DeepSea-Paket erhalten",
-    "deepsea_label": "\ue016 DeepSea von Team Neptune ist ein CFW-Paket, das Atmosphère, Hekate und verschiedene Homebrew-Anwendungen enthält.",
-    "download_deepsea_package": "Kompilieren und herunterladen",
-    "cant_fetch_deepsea": "Es konnten keine Pakete geholt werden. Öffne ein Github-Issue, wenn dieses Problem weiterhin besteht.",
-    "build_your_deepsea": "Baue dein eigenes DeepSea-Paket durch Auswählen von Paketen",
+    "download_custom_fairtech": "Dieses benutzerdefinierte FairTech-Paket herunterladen",
+    "get_custom_fairtech": "Benutzerdefiniertes FairTech-Paket erhalten",
+    "fairtech_label": "\ue016 FairTech von FairTech US ist ein CFW-Paket, das Atmosphère, Hekate und verschiedene Homebrew-Anwendungen enthält.",
+    "download_fairtech_package": "Kompilieren und herunterladen",
+    "cant_fetch_fairtech": "Es konnten keine Pakete geholt werden. Öffne ein Github-Issue, wenn dieses Problem weiterhin besteht.",
+    "build_your_fairtech": "Baue dein eigenes FairTech-Paket durch Auswählen von Paketen",
     "getting_ams": "Atmosphère herunterladen",
-    "custom_packs_label": "\ue016 Hier sind die in der {}-Datei aufgelisteten Pakete. Bitte beachte, dass diese nicht von AIO-Switch-Updater überprüft werden, also stelle sicher, dass diese Quelle vertrauenswürdig ist."
+    "custom_packs_label": "\ue016 Hier sind die in der {}-Datei aufgelisteten Pakete. Bitte beachte, dass diese nicht von FairTech-AIO-Updater überprüft werden, also stelle sicher, dass diese Quelle vertrauenswürdig ist."
   },
   "net": {
     "title": "Interneteinstellungen"

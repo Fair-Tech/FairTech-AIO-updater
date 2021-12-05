@@ -137,7 +137,7 @@
   "hide": {
     "title": "Hide tabs",
     "desc": "Hide tabs from the main menu",
-    "update_ams_deepsea": "Atmosphere and DeepSea downloads"
+    "update_ams_fairtech": "Atmosphere and FairTech downloads"
   },
   "tools": {
     "cheats": "Cheats menu",
@@ -173,15 +173,15 @@
     "current_ams": "\ue016  Current Atmosphère: ",
     "erista_rev": "\ue016  Erista revision",
     "mariko_rev": "\ue016  Mariko revision",
-    "deepsea_builder": "DeepSea builder",
+    "fairtech_builder": "FairTech builder",
     "show_module_description": "Show module's description",
     "depends_on": "The following modules will also be installed:",
-    "download_custom_deepsea": "Download this custom FairTech package",
-    "get_custom_deepsea": "Get custom FairTech package",
-    "deepsea_label": "\ue016  FairTech AIO is a CFW pack that includes Atmosph\u00e8re, hekate, and various homebrew apps.",
-    "download_deepsea_package": "Compile and download",
-    "cant_fetch_deepsea": "Couldn't fetch packages. Open a Github issue if this persists.",
-    "build_your_deepsea": "Build your own custom FairTech package by selecting packages",
+    "download_custom_fairtech": "Download this custom FairTech package",
+    "get_custom_fairtech": "Get custom FairTech package",
+    "fairtech_label": "\ue016  FairTech AIO is a CFW pack that includes Atmosph\u00e8re, hekate, and various homebrew apps.",
+    "download_fairtech_package": "Compile and download",
+    "cant_fetch_fairtech": "Couldn't fetch packages. Open a Github issue if this persists.",
+    "build_your_fairtech": "Build your own custom FairTech package by selecting packages",
     "getting_ams": "Getting Atmosphère",
     "custom_packs_label": "\ue016  Here are packs listed in the {} file. Be aware that those are not endorsed by FairTech-AIO-Updater so make sure you trust their source."
   },

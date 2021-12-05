@@ -28,11 +28,11 @@ AmsTab::AmsTab(const nlohmann::json& nxlinks, const bool erista, const bool hide
 
         description = new brls::Label(
             brls::LabelStyle::DESCRIPTION,
-            "menus/ams_update/deepsea_label"_i18n,
+            "menus/ams_update/fairtech_label"_i18n,
             true);
         this->addView(description);
 
-        listItem = new brls::ListItem("menus/ams_update/get_custom_deepsea"_i18n);
+        listItem = new brls::ListItem("menus/ams_update/get_custom_fairtech"_i18n);
         listItem->setHeight(LISTITEM_HEIGHT);
         listItem->getClickEvent()->subscribe([this](brls::View* view) {
             nlohmann::ordered_json modules;
@@ -41,7 +41,7 @@ AmsTab::AmsTab(const nlohmann::json& nxlinks, const bool erista, const bool hide
         });
         this->addView(listItem);
 
-        CreateDownloadItems(util::getValueFromKey(cfws, "DeepSea"), false);
+        CreateDownloadItems(util::getValueFromKey(cfws, "FairTech"), false);
     }
 
     auto custom_pack = fs::parseJsonFile(CUSTOM_PACKS_PATH);
@@ -149,12 +149,12 @@ void AmsTab::ShowCustomDeepseaBuilder(nlohmann::ordered_json& modules)
     std::map<std::string, std::string> name_map;
 
     brls::TabFrame* appView = new brls::TabFrame();
-    appView->setIcon("romfs:/deepsea_icon.png");
+    appView->setIcon("romfs:/fairtech_icon.png");
 
     std::vector<brls::List*> lists;
     std::set<std::string> old_modules = GetLastDownloadedModules(DEEPSEA_PACKAGE_PATH);
 
-    brls::ToggleListItem* deepseaListItem;
+    brls::ToggleListItem* fairtechListItem;
     for (const auto& category : modules.items()) {
         brls::List* list = new brls::List();
 
@@ -169,17 +169,17 @@ void AmsTab::ShowCustomDeepseaBuilder(nlohmann::ordered_json& modules)
                 requirements.pop_back();
             }
             if (module_value.at("required")) {
-                deepseaListItem = new UnTogglableListItem(module_value.at("displayName"), 1, requirements, "Required", "o");
+                fairtechListItem = new UnTogglableListItem(module_value.at("displayName"), 1, requirements, "Required", "o");
             }
             else {
-                deepseaListItem = new ::brls::ToggleListItem(module_value.at("displayName"),
+                fairtechListItem = new ::brls::ToggleListItem(module_value.at("displayName"),
                                                              old_modules.find(module.key()) != old_modules.end() ? 1 : 0,
                                                              requirements,
                                                              "menus/common/selected"_i18n,
                                                              "menus/common/off"_i18n);
             }
             name_map.insert(std::pair(module_value.at("displayName"), module.key()));
-            deepseaListItem->registerAction("menus/ams_update/show_module_description"_i18n, brls::Key::Y, [module_value] {
+            fairtechListItem->registerAction("menus/ams_update/show_module_description"_i18n, brls::Key::Y, [module_value] {
                 brls::Dialog* dialog;
                 dialog = new brls::Dialog(fmt::format("{}:\n{}", module_value.at("repo"), module_value.at("description")));
                 brls::GenericEvent::Callback callback = [dialog](brls::View* view) {
@@ -190,13 +190,13 @@ void AmsTab::ShowCustomDeepseaBuilder(nlohmann::ordered_json& modules)
                 dialog->open();
                 return true;
             });
-            list->addView(deepseaListItem);
+            list->addView(fairtechListItem);
         }
         lists.push_back(list);
         appView->addTab(category.key(), list);
     }
 
-    appView->registerAction("menus/ams_update/download_deepsea_package"_i18n, brls::Key::X, [this, lists, name_map] {
+    appView->registerAction("menus/ams_update/download_fairtech_package"_i18n, brls::Key::X, [this, lists, name_map] {
         std::set<std::string> desired_modules;
         for (const auto& list : lists) {
             for (size_t i = 0; i < list->getViewsCount(); i++) {
@@ -212,15 +212,15 @@ void AmsTab::ShowCustomDeepseaBuilder(nlohmann::ordered_json& modules)
         for (const auto& e : desired_modules)
             request_url += e + ";";
 
-        this->CreateStagedFrames("menus/common/download"_i18n + "Custom DeepSea package" + "menus/common/from"_i18n + request_url,
+        this->CreateStagedFrames("menus/common/download"_i18n + "Custom FairTech package" + "menus/common/from"_i18n + request_url,
                                  request_url,
-                                 "menus/ams_update/get_custom_deepsea"_i18n,
+                                 "menus/ams_update/get_custom_fairtech"_i18n,
                                  this->erista);
         return true;
     });
     appView->registerAction("", brls::Key::PLUS, [this] { return true; });
 
-    brls::PopupFrame::open("menus/ams_update/deepsea_builder"_i18n, appView, modules.empty() ? "menus/ams_update/cant_fetch_deepsea"_i18n : "menus/ams_update/build_your_deepsea"_i18n, "");
+    brls::PopupFrame::open("menus/ams_update/fairtech_builder"_i18n, appView, modules.empty() ? "menus/ams_update/cant_fetch_fairtech"_i18n : "menus/ams_update/build_your_fairtech"_i18n, "");
 }
 
 bool UnTogglableListItem::onClick()
