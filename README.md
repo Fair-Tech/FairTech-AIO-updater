@@ -1,5 +1,5 @@
 # FairTech-AIO-Updater
-![releases](https://github.com/Fair-Tech/FairTech-AIO-updater/releases)
+.[Releases](https://github.com/Fair-Tech/FairTech-AIO-updater/releases)
 
 
 <p align="center">
